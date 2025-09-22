@@ -1,0 +1,79 @@
+/* Apply Google Font to the whole page */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff; /* light blue */
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Center container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+  color: darkblue;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: darkred;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* Gallery layout */
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.gallery a {
+  margin: 10px;
+}
+
+/* Images */
+img {
+  border: 3px solid black;
+  border-radius: 10px;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+  border-color: darkblue;
+}
+
+/* List styling */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
